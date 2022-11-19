@@ -37,7 +37,7 @@ export const App = () => {
         };
       } else {
         setPdfFile(null);
-        setPdfFileError("Please select valid pdf file");
+        setPdfFileError("Select valid pdf file");
       }
     } else {
       console.log("select your file");
